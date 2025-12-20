@@ -1,9 +1,7 @@
 <template>
-  <section id="skills" class="section-padding bg-black">
+  <section class="section-padding bg-black">
     <div class="container-max">
-      <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-        Skills & Technologies
-      </h2>
+      <SectionHeading>Skills & Technologies</SectionHeading>
       
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <SkillCategory 
@@ -39,6 +37,7 @@
 <script setup>
 import { ref } from 'vue'
 import SkillCategory from './SkillCategory.vue'
+import SectionHeading from './SectionHeading.vue'
 
 const backendSkills = [
   { name: 'Javascript', level: 'Intermediate' },

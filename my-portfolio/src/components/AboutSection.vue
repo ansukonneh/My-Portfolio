@@ -1,9 +1,7 @@
 <template>
-  <section id="about" class="section-padding bg-slate-900">
+  <section class="section-padding bg-slate-900">
     <div class="container-max">
-      <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-        About Me
-      </h2>
+      <SectionHeading>About Me</SectionHeading>
       
       <div class="grid md:grid-cols-2 gap-12 items-start">
         <div class="space-y-6">
@@ -66,4 +64,8 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import SectionHeading from './SectionHeading.vue'
+</script>
 
