@@ -38,11 +38,24 @@
   </section>
 </template>
 
+<script setup>
+
+</script>
+
 <style scoped>
 @keyframes fade-in {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.animate-fade-in { animation: fade-in 1s ease-out; }
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
 </style>
 
